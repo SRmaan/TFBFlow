@@ -5,10 +5,12 @@ import {
   Twitter,
   type Icon as LucideIcon,
 } from "lucide-react"
+import Image from "next/image";
 
 export type Icon = LucideIcon
 const Logo = ({ width, height }: LogoProps) => (
-  <img src="/tfb.png" alt="Logo" style={{ width, height }} />
+  <Image  src="/tfb.png" alt="Logo" width="50" height="50" />
+  
 );
 
 interface LogoProps {
