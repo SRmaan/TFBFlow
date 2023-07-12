@@ -3,6 +3,7 @@ import Link from "next/link"
 import { siteConfig } from "@/config/site"
 import { buttonVariants } from "@/components/ui/button"
 import Flow from "@/components/flow"
+import FlowDiagram from "@/components/FlowDiagram"
 
 export default function IndexPage() {
   return (
@@ -11,6 +12,7 @@ export default function IndexPage() {
         <p className="text-2xl font-bold">Tailor Fit Barbers Flow</p>
       </div>
       <Flow />
+      <FlowDiagram />
 
     </section>
   )
